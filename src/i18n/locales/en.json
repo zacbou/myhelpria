@@ -1,0 +1,72 @@
+{
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "search": "Search",
+    "submit": "Submit"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "pages": "Pages",
+    "messages": "Messages",
+    "settings": "Settings",
+    "profile": "Profile",
+    "team": "Team",
+    "logout": "Logout",
+    "categories": "Categories",
+    "contact": "Contact",
+    "theme": "Theme"
+  },
+  "theme": {
+    "customize": "Customize Layout"
+  },
+  "auth": {
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?"
+  },
+  "dashboard": {
+    "totalViews": "Total Views",
+    "activeUsers": "Active Users",
+    "avgTime": "Avg. Time on Page",
+    "countries": "Countries",
+    "popularArticles": "Popular Articles",
+    "searchTerms": "Top Search Terms",
+    "dailyTraffic": "Daily Traffic"
+  },
+  "profile": {
+    "title": "Profile Settings",
+    "personalInfo": "Personal Information",
+    "companyInfo": "Company Information",
+    "fullName": "Full Name",
+    "phone": "Phone",
+    "timeZone": "Time Zone",
+    "companyName": "Company Name",
+    "industry": "Industry",
+    "website": "Website",
+    "address": "Address",
+    "saveChanges": "Save Changes",
+    "updateSuccess": "Profile updated successfully!",
+    "billing": "Billing"
+  },
+  "articles": {
+    "manage": "Manage Articles",
+    "create": "Create Article",
+    "edit": "Edit Article",
+    "delete": "Delete Article",
+    "title": "Title",
+    "content": "Content",
+    "category": "Category",
+    "lastUpdated": "Last Updated",
+    "published": "Published Articles",
+    "noArticles": "No articles",
+    "getStarted": "Get started by creating a new article"
+  }
+}

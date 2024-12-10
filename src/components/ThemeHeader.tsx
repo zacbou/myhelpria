@@ -1,0 +1,47 @@
+@@ .. @@
+   return (
+     <div 
+-      className={`bg-gradient-to-r ${style.backgroundColor} p-16 rounded-xl mb-8 text-center relative group transition-colors duration-200`}
++      className={`bg-gradient-to-r ${style.backgroundColor} p-16 rounded-xl mb-8 text-center relative group transition-all duration-200`}
+     >
+       {isEditing ? (
+         <div className="space-y-4">
+           <input
+             type="text"
+             value={editedText}
+             onChange={(e) => onTextChange(e.target.value)}
+-            className="w-full max-w-xl mx-auto px-4 py-2 text-3xl font-bold text-gray-900 bg-white rounded-lg border-0 focus:ring-2 focus:ring-blue-500"
++            className="w-full max-w-xl mx-auto px-4 py-2 text-3xl font-bold text-gray-900 bg-white/90 backdrop-blur-sm rounded-lg border-0 focus:ring-2 focus:ring-blue-500 shadow-lg"
+             autoFocus
+           />
+           <div className="flex justify-center space-x-2">
+             <button
+               onClick={onCancel}
+-              className="p-2 bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors"
++              className="p-2 bg-white/20 text-white rounded-lg hover:bg-white/30 transition-all shadow-sm"
+             >
+               <X className="h-5 w-5" />
+             </button>
+             <button
+               onClick={onSave}
+-              className="p-2 bg-white/10 text-white rounded-lg hover:bg-white/20 transition-colors"
++              className="p-2 bg-white/20 text-white rounded-lg hover:bg-white/30 transition-all shadow-sm"
+             >
+               <Check className="h-5 w-5" />
+             </button>
+           </div>
+         </div>
+       ) : (
+         <>
+           <h1 className={`text-4xl font-bold ${style.textColor} mb-8`}>{text}</h1>
+           <button
+             onClick={onEdit}
+-            className="absolute top-4 right-4 p-2 text-white/0 group-hover:text-white/50 hover:text-white rounded-lg transition-colors"
++            className="absolute top-4 right-4 p-2 text-white/0 group-hover:text-white/50 hover:text-white hover:bg-white/10 rounded-lg transition-all"
+           >
+             <Edit2 className="h-5 w-5" />
+           </button>
+         </>
+       )}
+     </div>
+   );
